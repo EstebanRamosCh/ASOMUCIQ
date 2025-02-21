@@ -27,12 +27,12 @@ export async function getStaticPaths() {
     <section class="flex items-center gap-8">
       <div>
         <h1>
-          <span class="fancy">Spark</span>, {t("hero.title")}
+          <span class="fancy">ASOMUCIQ</span>, {t("hero.title")}
         </h1>
         <p>{t("hero.description")}</p>
       </div>
       <div class="relative hidden md:block">
-        <img src="/favicon.svg" alt="spark logo" width="182" height="242" />
+        <img src="/Logo ASOMUCIQ.png" alt="spark logo" width="1200" />
       </div>
     </section>
 
@@ -40,49 +40,22 @@ export async function getStaticPaths() {
       <a slot="upper-row" href={`/${lang}/contact/`} class="card">
         <div class="flex items-baseline justify-between">
           <h3>{t("test.cardGridTitle1")}</h3>
-          <i
-            ><img
-              src="/icons/link.svg"
-              alt=""
-              class="w-5"
-              width="20"
-              height="20"
-            /></i
-          >
         </div>
         <p>{t("test.cardGridDescription1")}</p>
       </a>
-      <a slot="upper-row" href={`/${lang}/blog/`} class="card">
+      <a slot="upper-row" href={`/${lang}/contact/`} class="card">
         <div class="flex items-baseline justify-between">
           <h3>{t("test.cardGridTitle2")}</h3>
-          <i
-            ><img
-              src="/icons/link.svg"
-              alt=""
-              class="w-5"
-              width="20"
-              height="20"
-            /></i
-          >
         </div>
         <p>{t("test.cardGridDescription2")}</p>
       </a>
-      <a slot="lower-row" href={`/${lang}/components`} class="card">
+      <!-- <a slot="lower-row" href={`/${lang}/components`} class="card">
         <div class="flex items-baseline justify-between">
           <h3>{t("test.cardGridTitle3")}</h3>
-          <i
-            ><img
-              src="/icons/link.svg"
-              alt=""
-              class="w-5"
-              width="20"
-              height="20"
-            /></i
-          >
         </div>
         <p class="m-0 mt-1">{t("test.cardGridDescription3")}</p>
-      </a>
-      <a slot="lower-row" href={`/${lang}/faq`} class="card">
+      </a> -->
+      <!-- <a slot="lower-row" href={`/${lang}/faq`} class="card">
         <div class="flex items-baseline justify-between">
           <h3>{t("test.cardGridTitle4")}</h3>
           <i
@@ -96,14 +69,14 @@ export async function getStaticPaths() {
           >
         </div>
         <p>{t("test.cardGridDescription4")}</p>
-      </a>
+      </a> -->
       <div slot="lower-row" class="card">
         <h3>{t("test.cardGridTitle5")}</h3>
-        <p>{t("test.cardGridDescription5")}</p>
+        <p1>{t("test.cardGridDescription5")}</p1>
       </div>
     </CardGrid>
 
-    <section>
+    <!-- <section>
       <h2>{t("integration.title")}</h2>
       <p>{t("integration.description")}</p>
       <ul
@@ -146,49 +119,49 @@ export async function getStaticPaths() {
           imgAlt="mailerSend documentation"
         />
       </ul>
-    </section>
+    </section> -->
 
     <AutoSlider title={t("slider.title")}>
       <TextCard
-        icon="/icons/zero.svg"
+        icon="/icons/globe.svg"
+        title={t("slider.card_7_title")}
+        description={t("slider.card_7_description")}
+      />
+      <TextCard
+        icon="/icons/pointer.svg"
         title={t("slider.card_1_title")}
         description={t("slider.card_1_description")}
       />
       <TextCard
-        icon="/icons/pointer.svg"
+        icon="/icons/globe.svg"
         title={t("slider.card_2_title")}
         description={t("slider.card_2_description")}
       />
       <TextCard
-        icon="/icons/globe.svg"
+        icon="/icons/tailwind.svg"
         title={t("slider.card_3_title")}
         description={t("slider.card_3_description")}
       />
       <TextCard
-        icon="/icons/tailwind.svg"
+        icon="/icons/search.svg"
         title={t("slider.card_4_title")}
         description={t("slider.card_4_description")}
-      />
-      <TextCard
-        icon="/icons/search.svg"
-        title={t("slider.card_5_title")}
-        description={t("slider.card_5_description")}
       />
       <!-- some duplicates needed to make sure row is full -->
       <TextCard
         icon="/icons/zero.svg"
-        title={t("slider.card_1_title")}
-        description={t("slider.card_1_description")}
+        title={t("slider.card_5_title")}
+        description={t("slider.card_5_description")}
       />
       <TextCard
         icon="/icons/pointer.svg"
-        title={t("slider.card_2_title")}
-        description={t("slider.card_2_description")}
+        title={t("slider.card_6_title")}
+        description={t("slider.card_6_description")}
       />
       <TextCard
         icon="/icons/globe.svg"
-        title={t("slider.card_3_title")}
-        description={t("slider.card_3_description")}
+        title={t("slider.card_7_title")}
+        description={t("slider.card_7_description")}
       />
     </AutoSlider>
 

@@ -1,9 +1,9 @@
 export const ui = {
   en: {
-    "layout.test": "Spark",
-    "hero.title": " the best minimal astro starter template!",
+    "layout.test": "ASOMUCIQ",
+    "hero.title": " la organización que se dedica a la defensa y promoción de los derechos humanos de estas mujeres!",
     "hero.description":
-      "Launch astro projects with ease and style. Minimalist design, maximum functionality. Whether seasoned or new, Spark streamlines your development for stunning astro websites.",
+      "Impulsando su empoderamiento económico, social y cultural mediante programas que mejoren su calidad de vida, educación, acceso a oportunidades laborales y desarrollo cultural. ASOMUCIQ ha implementado proyectos de formación en liderazgo, emprendimiento y gestión de proyectos, además de iniciativas para fortalecer la economía local, promoviendo la producción y comercialización de productos agrícolas y artesanales, lo que contribuye a la autonomía económica de las mujeres y al fortalecimiento del tejido social en sus comunidades.",
     "integration.title": "Integrations",
     "integration.description":
       "Click on a card below to open the intergation documentation.",
@@ -22,10 +22,10 @@ export const ui = {
     "nav.contact": "contact",
     "nav.blog": "blog",
     "footer.copyright":
-      "Spark Theme. All rights reserved. This project is independent of and not endorsed or sponsored by Astro or Tailwind Labs.",
-    "footer.createdBy": "Created by",
+      "Created by d_eye® powered by D'GROUPE. All rights reserved.",
+    "footer.createdBy": "Development by",
     "footer.createdBy2":
-      "with Astro and Tailwind from the beautiful Bierbeek, Belgium.",
+      " ",
     "faq.contact": "Couldn't find what your're looking for?",
     "faq.contactUs": "Contact us!",
     "contact.title": "Contact",
@@ -45,22 +45,28 @@ export const ui = {
     "contact.error_topic": "Please select a valid topic.",
     "contact.success": "Email was sent successfully",
     "contact.error_general": "Something went wrong, try again later",
-    "slider.title": "Everything you need to get started",
-    "slider.card_1_title": "Zero JavaScript, By Default",
+    "slider.title": "Nuestros objetivos sociales",
+    "slider.card_1_title": "Mejora social y económica",
     "slider.card_1_description":
-      "Astro only ships the JavaScript you need and automatically strips away the rest for a faster website.",
-    "slider.card_2_title": "Interactive when needed",
+      "Desarrollar programas que promuevan los derechos humanos, la vivienda, la cultura, la formación, la recreación y la construcción del tejido social a través de proyectos públicos y privados.",
+    "slider.card_2_title": "Fomento de la paz",
     "slider.card_2_description":
-      "Alpine is a rugged, minimal tool for composing behavior directly in your markup. Think of it like jQuery for the modern web.",
-    "slider.card_3_title": "Multi-language Support",
+      "Sensibilizar y participar en procesos de paz con grupos armados ilegales.",
+    "slider.card_3_title": "Desarrollo de programas productivos y sociales",
     "slider.card_3_description":
-      "Multi-language support straight out of the box using Astro's built-in i18n capabilities, making your content accessible to a wider audience.",
-    "slider.card_4_title": "Style with Tailwind CSS",
+      "Mejorar la calidad de vida y garantizar el acceso a los beneficios del Estado, promoviendo la creación de microempresas, desarrollo agropecuario y pesquero.",
+    "slider.card_4_title": "Protección ambiental y capacitación",
     "slider.card_4_description":
-      "Style your website directly in your HTML with utility-first CSS classes, making design a breeze.",
-    "slider.card_5_title": "SEO optimized",
+      "Desarrollar proyectos de reforestación, control de la contaminación y manejo de recursos hídricos y residuos.",
+    "slider.card_5_title": "Formación y educación",
     "slider.card_5_description":
-      "Astro's sitemap integration helps search engines discover your content, improving your site's SEO effortlessly.",
+      "Impulsar actividades de formación en temas relacionados con medio ambiente, riesgos laborales, contabilidad y otros ámbitos técnicos.",
+    "slider.card_6_title": "Cooperación internacional",
+    "slider.card_6_description":
+      "Firmar acuerdos y convenios con entidades nacionales e internacionales para apoyar proyectos y actividades sociales.",
+    "slider.card_7_title": "Desarrollo de proyectos y financiamiento",
+    "slider.card_7_description":
+      "Gestionar recursos para el financiamiento de actividades y proyectos a nivel nacional e internacional, y realizar alianzas estratégicas con otras entidades.",
     "features.title": "Features",
     "components.description":
       "Here you'll find a collection of elements, icons and such that are provided by this theme.",
@@ -82,21 +88,21 @@ export const ui = {
     "test.containersTitle": "Containers",
     "test.cardGridDescription":
       "The CardGrid component allows flexible content layout. Provide content through either the 'upper-row' or 'lower-row' slot, and the component will automatically distribute it into columns.",
-    "test.cardGridTitle": "What's included",
-    "test.cardGridTitle1": "Contact page",
+    "test.cardGridTitle": "Nuestra historia",
+    "test.cardGridTitle1": "Nacimiento",
     "test.cardGridDescription1":
-      "Capture leads and stay connected with a user-friendly contact form, powered by mailersend.",
-    "test.cardGridTitle2": "Ready-to-go blog",
+      "ASOMUCIQ surge el día 22 de diciembre de 2017 como una iniciativa promovida por un grupo de mujeres congregadas en una asamblea, que venían adelantando un trabajo hacía más de 9 años, donde se le ayudaba a la mujer Campesina, víctima del conflicto armado, a la madre cabeza de hogar y a las mujeres en estado de vulnerabilidad en la búsqueda de soluciones, el restablecimiento y rescate de sus derechos para de esta manera contribuir al mejoramiento de la calidad de vida de cada una de las personas vinculadas a la asociación y por ende hacerlo extensivo a las familias.",
+    "test.cardGridTitle2": "Formalización",
     "test.cardGridDescription2":
-      "Start blogging using the I18N compatible, MDX powered blog!",
-    "test.cardGridTitle3": "Easy setup",
+      "Posteriormente, a principios del mes de febrero del año 2018 fue construida legalmente está asociación en el municipio de Quibdó con el fin de realizar un trabajo serio y organizado con firme propósito de impulsar y desarrollar programas tendientes a la defensa, protección y promoción de los derechos humanos, para proponer y ejecutar programas de fortalecimiento cultural, educativo, recreacional, económico y laboral. Para contribuir a la construcción del tejido social. Propendiendo por aportar a la obtención de una paz duradera y estable.",
+    "test.cardGridTitle3": "Propósito",
     "test.cardGridDescription3":
-      "Get up and running quickly using our premade pages and components.",
+      "Nuestras mujeres, niñas, niños , jóvenes y la familia en general, son la a razón del nacimiento de ASOMUCIQ, quienes se encuentran inmersos en las diferentes situaciones de vulnerabilidad , de pobreza, pobreza extrema, condiciones de exclusión en todos los ámbitos de la vida sin el reconocimiento pleno de sus derechos; lo cual no les permite su desarrollo personal; es por eso que desde ASOMUCIQ defendemos los derechos de  las mujeres y promovemos el apoyo mutuo entre las familias y su entorno, generando una  alternativa de cambio que incida en  el mejoramiento de la calidad de vida de cada una de las asociadas y sus familias.",
     "test.cardGridTitle4": "FAQ page",
     "test.cardGridDescription4":
       "People might have questions, now you can answer them!",
-    "test.cardGridTitle5": "Speak Their Language",
-    "test.cardGridDescription5": "I18N built in. Convert more!",
+    "test.cardGridTitle5": "Propósito",
+    "test.cardGridDescription5": "Nuestras mujeres, niñas, niños , jóvenes y la familia en general, son la a razón del nacimiento de ASOMUCIQ, quienes se encuentran inmersos en las diferentes situaciones de vulnerabilidad , de pobreza, pobreza extrema, condiciones de exclusión en todos los ámbitos de la vida sin el reconocimiento pleno de sus derechos; lo cual no les permite su desarrollo personal; es por eso que desde ASOMUCIQ defendemos los derechos de  las mujeres y promovemos el apoyo mutuo entre las familias y su entorno, generando una  alternativa de cambio que incida en  el mejoramiento de la calidad de vida de cada una de las asociadas y sus familias.",
     "test.cardsTitle": "Cards",
     "test.cardsDescription": "Some of the premade card components, some of t",
     "test.cardClass":
