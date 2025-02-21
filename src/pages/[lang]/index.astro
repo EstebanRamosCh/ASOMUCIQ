@@ -1,5 +1,4 @@
 ---
-import IconCard from "../../components/IconCard.astro";
 import { getLangFromUrl, useTranslations, LOCALES } from "../../i18n/utils";
 import Layout from "../../layouts/Layout.astro";
 import TextCard from "../../components/TextCard.astro";
@@ -76,51 +75,6 @@ export async function getStaticPaths() {
       </div>
     </CardGrid>
 
-    <!-- <section>
-      <h2>{t("integration.title")}</h2>
-      <p>{t("integration.description")}</p>
-      <ul
-        class="mb-4 grid grid-cols-3 md:grid-cols-4 lg:flex flex-wrap gap-4 py-4 w-full"
-      >
-        <IconCard
-          href="https://docs.astro.build/en/guides/integrations-guide/alpinejs/"
-          title="Alpine.js"
-          imgHref="/icons/alpinejs.svg"
-          imgAlt="alpine.js integration guide"
-        />
-        <IconCard
-          href="https://docs.astro.build/en/guides/integrations-guide/mdx/"
-          title="MDX"
-          imgHref="/icons/mdx.svg"
-          imgAlt="MDX integration guide"
-        />
-        <IconCard
-          href="https://docs.astro.build/en/guides/integrations-guide/sitemap/"
-          title="Sitemap"
-          imgHref="/icons/sitemap.svg"
-          imgAlt="sitemap integration guide"
-        />
-        <IconCard
-          href="https://docs.astro.build/en/guides/integrations-guide/tailwind/"
-          title="Tailwind"
-          imgHref="/icons/tailwind.svg"
-          imgAlt="tailwind integration guide"
-        />
-        <IconCard
-          href="https://docs.astro.build/en/guides/integrations-guide/vercel/"
-          title="Vercel"
-          imgHref="/icons/vercel.svg"
-          imgAlt="vercel integration guide"
-        />
-        <IconCard
-          href="https://github.com/mailersend/mailersend-nodejs?tab=readme-ov-file#send-a-template-based-email"
-          title="MailerSend"
-          imgHref="/icons/mailerSend.svg"
-          imgAlt="mailerSend documentation"
-        />
-      </ul>
-    </section> -->
-
     <AutoSlider title={t("slider.title")}>
       <TextCard
         icon="/icons/globe.svg"
@@ -169,7 +123,7 @@ export async function getStaticPaths() {
       title="test.fullWidthBannerTitle"
       description="test.fullWidthBannerDescription"
       ctaTitle="test.button"
-      ctaLink="#"
+      ctaLink={`/${lang}/contact/`}
     />
   </main>
 </Layout>

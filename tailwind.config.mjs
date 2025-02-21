@@ -28,7 +28,7 @@ export default {
       },
       colors: {
         white: "#FFFFFF",
-        accent: "#2CA02C",
+        accent: "#165FF2",
         gray: "#13151a",
         elevated: "#fbf7f5",
         negative: "#E62323",

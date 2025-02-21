@@ -4,9 +4,6 @@ export const ui = {
     "hero.title": " la organización que se dedica a la defensa y promoción de los derechos humanos de estas mujeres!",
     "hero.description":
       "Impulsando su empoderamiento económico, social y cultural mediante programas que mejoren su calidad de vida, educación, acceso a oportunidades laborales y desarrollo cultural. ASOMUCIQ ha implementado proyectos de formación en liderazgo, emprendimiento y gestión de proyectos, además de iniciativas para fortalecer la economía local, promoviendo la producción y comercialización de productos agrícolas y artesanales, lo que contribuye a la autonomía económica de las mujeres y al fortalecimiento del tejido social en sus comunidades.",
-    "integration.title": "Integrations",
-    "integration.description":
-      "Click on a card below to open the intergation documentation.",
     "faq.title": "FAQ",
     "faq.why": "Why did you create this template?",
     "faq.who": "Why created this template?",
@@ -17,10 +14,10 @@ export const ui = {
     "faq.reason_tech":
       "I used Astro, Alpine.js, mdx, sitemap, tailwind, vercel and mailersend",
     "faq.description": "This is the faq page",
-    "nav.components": "Components",
-    "nav.faq": "faq",
-    "nav.contact": "contact",
-    "nav.blog": "blog",
+    "nav.components": "Líneas de acción",
+    "nav.faq": "Publicaciones",
+    "nav.contact": "Contacto",
+    "nav.blog": "Nosotros",
     "footer.copyright":
       "Created by d_eye® powered by D'GROUPE. All rights reserved.",
     "footer.createdBy": "Development by",
@@ -78,10 +75,10 @@ export const ui = {
       "Hover over each icon to see it's name. All icons are svg files within the public/icons directory.",
     "test.dropdownCardTitle": "Dropdown cards",
     "test.dropdownCardDescription": "Powered by alpine.js",
-    "test.fullWidthBannerTitle": "Full width banner",
+    "test.fullWidthBannerTitle": "Contáctanos",
     "test.fullWidthBannerDescription":
-      "A full width banner with an optional cta button",
-    "test.button": "click here",
+      "El objeto social de la organización se centra en mejorar la calidad de vida de la población vulnerable, especialmente campesinos, afrocolombianos, indígenas y mestizos, afectados por el conflicto interno colombiano.",
+    "test.button": "Presiona aquí",
     "test.autoSliderTitle": "Auto slider with TextCards",
     "test.autoSliderDescription":
       "A no js, css only auto slider where you can pause the animation by hovering over a card. An optional title and description can also be provided.",
@@ -111,13 +108,10 @@ export const ui = {
       "A responsive, interactive list item (<li>) that functions as an icon card with an image and title, using Tailwind CSS for styling.",
   },
   nl: {
-    "layout.test": "Spark",
+    "layout.test": "ASOMUCIQ",
     "hero.title": " het beste minimale Astro starter template!",
     "hero.description":
       "Start astro projecten eenvoudig en met stijl. Minimalistisch design, maximale functionaliteit. Of je nu ervaren bent of nieuw, Spark vereenvoudigt je ontwikkeling voor prachtige astro websites.",
-    "integration.title": "Integraties",
-    "integration.description":
-      "Klik op een kaart hieronder om de documentatie van de integratie te openen.",
     "faq.title": "Veelgestelde vragen",
     "faq.why": "Waarom heb je deze template gemaakt?",
     "faq.who": "Wie heeft deze template gemaakt?",
@@ -174,7 +168,13 @@ export const ui = {
     "slider.card_5_title": "SEO geoptimaliseerd",
     "slider.card_5_description":
       "Astro's sitemap-integratie helpt zoekmachines uw inhoud te ontdekken, waardoor de SEO van uw site moeiteloos wordt verbeterd.",
-    "components.description":
+    "slider.card_6_title": "Cooperación internacional",
+    "slider.card_6_description":
+      "Firmar acuerdos y convenios con entidades nacionales e internacionales para apoyar proyectos y actividades sociales.",
+    "slider.card_7_title": "Desarrollo de proyectos y financiamiento",
+    "slider.card_7_description":
+      "Gestionar recursos para el financiamiento de actividades y proyectos a nivel nacional e internacional, y realizar alianzas estratégicas con otras entidades.",
+      "components.description":
       "Hier vindt u een verzameling elementen, pictogrammen en dergelijke die door dit thema worden geleverd.",
     "test.title": "Voorbeeldkaart",
     "test.description":
@@ -218,13 +218,10 @@ export const ui = {
       "Een responsief, interactief lijst item (<li>) dat functioneert als een pictogramkaart met een afbeelding en titel, met behulp van Tailwind CSS voor styling.",
   },
   fr: {
-    "layout.test": "Spark",
+    "layout.test": "ASOMUCIQ",
     "hero.title": " le meilleur modèle de démarrage Astro minimal !",
     "hero.description":
       "Lancez vos projets astro avec facilité et style. Design minimaliste, fonctionnalité maximale. Que vous soyez expérimenté ou novice, Spark simplifie votre développement pour des sites web astro époustouflants.",
-    "integration.title": "Intégrations",
-    "integration.description":
-      "Cliquez sur une carte ci-dessous pour ouvrir la documentation de l'intégration",
     "faq.title": "FAQ",
     "faq.why": "Pourquoi avez-vous créé ce modèle?",
     "faq.who": "Qui a créé ce modèle?",
@@ -282,7 +279,13 @@ export const ui = {
     "slider.card_5_title": "SEO optimized",
     "slider.card_5_description":
       "L'intégration du sitemap d'Astro aide les moteurs de recherche à découvrir votre contenu, améliorant ainsi sans effort le référencement de votre site.",
-    "components.description":
+    "slider.card_6_title": "Cooperación internacional",
+    "slider.card_6_description":
+      "Firmar acuerdos y convenios con entidades nacionales e internacionales para apoyar proyectos y actividades sociales.",
+    "slider.card_7_title": "Desarrollo de proyectos y financiamiento",
+    "slider.card_7_description":
+      "Gestionar recursos para el financiamiento de actividades y proyectos a nivel nacional e internacional, y realizar alianzas estratégicas con otras entidades.",
+      "components.description":
       "Vous trouverez ici une collection d'éléments, d'icônes et autres qui sont fournis par ce thème.",
     "test.title": "Sample Card",
     "test.description":
