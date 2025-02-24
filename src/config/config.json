@@ -1,20 +1,20 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
+    "title": "ASOMUCIQ",
+    "base_url": "https://asomuciq-org.netlify.app/",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "30",
-    "logo_text": "Astroplate"
+    "favicon": "/images/Logo-ASOMUCIQ.svg",
+    "logo": "/images/Logo ASOMUCIQ2.png",
+    "logo_darkmode": "/images/Logo ASOMUCIQ2.png",
+    "logo_width": "100",
+    "logo_height": "70",
+    "logo_text": "ASOMUCIQ"
   },
 
   "settings": {
-    "search": true,
-    "sticky_header": true,
+    "search": false,
+    "sticky_header": false,
     "theme_switcher": true,
     "default_theme": "system",
     "pagination": 2,
@@ -24,13 +24,13 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Diseñada y desarrollada por [d_eye®](https://d-eye.com.co/) powered by D'GROUPE"
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "label": "Contacto",
+    "link": "/contact"
   },
 
   "disqus": {
@@ -42,6 +42,6 @@
   "metadata": {
     "meta_author": "zeon.studio",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "Astro Theme"
   }
 }
