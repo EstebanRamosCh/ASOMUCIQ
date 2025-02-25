@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Una organización se dedica a la defensa y promoción de los derechos humanos de estas mujeres"
+  title: "Una organización que se dedica a la defensa y promoción de los derechos humanos de estas mujeres"
   content: "Impulsando su empoderamiento económico, social y cultural mediante programas que mejoren su calidad de vida, educación, acceso a oportunidades laborales y desarrollo cultural."
   image: "/images/Logo ASOMUCIQ.png"
   button:
@@ -11,41 +11,40 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Astroplate"
+  - title: "Nuestra historia"
     image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+    content: "ASOMUCIQ ha implementado proyectos de formación en liderazgo, emprendimiento y gestión de proyectos, además de iniciativas para fortalecer la economía local, promoviendo la producción y comercialización de productos agrícolas y artesanales, lo que contribuye a la autonomía económica de las mujeres y al fortalecimiento del tejido social en sus comunidades."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "ASOMUCIQ surge el 22 de diciembre de 2017 como una iniciativa de un grupo de mujeres reunidas en asamblea."
+      - "Más de 9 años trabajando en apoyo a mujeres campesinas, víctimas del conflicto armado, madres cabeza de hogar y mujeres en estado de vulnerabilidad."
+      - "Se comienzan a buscar soluciones para restablecer y rescatar derechos, contribuyendo al mejoramiento de la calidad de vida de sus integrantes y sus familias."
+      - "En febrero de 2018, ASOMUCIQ se constituyó legalmente en Quibdó."
+      - "Se comienzan a desarrollar programas organizados para la defensa, protección y promoción de los derechos humanos."
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Astro"
+  - title: "Objeto social"
     image: "/images/service-2.png"
-    content: "Astro is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "El objeto social de la organización se centra en mejorar la calidad de vida de la población vulnerable, especialmente campesinos, afrocolombianos, indígenas y mestizos, afectados por el conflicto interno colombiano. Para ello, se enfoca en:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Mejora social y económica: Desarrollar programas que promuevan los derechos humanos, la vivienda, la cultura, la formación, la recreación y la construcción del tejido social a través de proyectos públicos y privados."
+      - "Fomento de la paz: Sensibilizar y participar en procesos de paz con grupos armados ilegales."
+      - "Desarrollo de programas productivos y sociales: Mejorar la calidad de vida y garantizar el acceso a los beneficios del Estado, promoviendo la creación de microempresas, desarrollo agropecuario y pesquero."
     button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
+      enable: false
+      label: "Nuestras actividades"
+      link: "/elements"
 
-  - title: "The Top Reasons to Choose Astro for Your Next Project"
+  - title: "Nuestras mujeres, niñas, niños, jóvenes y la familia en general"
     image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Son la a razón del nacimiento de ASOMUCIQ, quienes se encuentran inmersos en las diferentes situaciones de vulnerabilidad , de pobreza, pobreza extrema, condiciones de exclusión en todos los ámbitos de la vida sin el reconocimiento pleno de sus derechos."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Protección ambiental y capacitación: Desarrollar proyectos de reforestación, control de la contaminación y manejo de recursos hídricos y residuos."
+      - "Formación y educación: Impulsar actividades de formación en temas relacionados con medio ambiente, riesgos laborales, contabilidad y otros ámbitos técnicos."
+      - "Cooperación internacional: Firmar acuerdos y convenios con entidades nacionales e internacionales para apoyar proyectos y actividades sociales."
+      - "Desarrollo de proyectos y financiamiento: Gestionar recursos para el financiamiento de actividades y proyectos a nivel nacional e internacional, y realizar alianzas estratégicas con otras entidades."
     button:
       enable: false
       label: ""

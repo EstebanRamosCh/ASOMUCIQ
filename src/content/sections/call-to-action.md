@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Astro?"
+title: "Deseas donar, participar y apoyar esta iniciativa?"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+description: "Únete para defender los derechos de las mujeres y promover el apoyo mutuo entre las familias y su entorno, generando una  alternativa de cambio que incida en el mejoramiento de la calidad de vida de cada una de las asociadas y sus familias."
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/astroplate"
+  label: "¡Contáctanos!"
+  link: "/contact"
 ---
