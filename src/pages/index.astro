@@ -19,6 +19,8 @@ interface Homepage {
   features: Feature[];
 }
 
+const proposito = await getEntry('proposito', 'proposito');
+
 const homepage = (await getEntry(
   "homepage",
   "-index"
@@ -35,6 +37,7 @@ const call_to_action = (await getEntry(
 )) as CollectionEntry<"ctaSection">;
 
 const { banner, features } = homepage.data as Homepage;
+
 ---
 
 <Base>
@@ -83,7 +86,7 @@ const { banner, features } = homepage.data as Homepage;
     </div>
   </section>
   <!-- /Banner -->
-
+  
   <!-- Features -->
   {
     features.map((feature, index: number) => (
