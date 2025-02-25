@@ -2,30 +2,15 @@
   "main": [
     {
       "name": "Líneas de accion",
-      "url": "/about"
-    },
-    {
-      "name": "Publicaciones",
       "url": "/elements"
     },
     {
-      "name": "Nosotros",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Propósito",
-          "url": "/blog"
-        },
-        {
-          "name": "Equipo",
-          "url": "/authors"
-        },
-        {
-          "name": "Contacto",
-          "url": "/contact"
-        }
-      ]
+      "name": "Publicaciones",
+      "url": "/blog"
+    },
+    {
+      "name": "Nuestro equipo",
+      "url": "/authors"
     }
   ],
   "footer": [
