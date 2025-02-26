@@ -148,7 +148,10 @@ const testimonialSectionCollection = defineCollection({
 });
 
 const propositoCollection = defineCollection({
-  type: 'content',
+  loader: glob({
+    pattern: "proposito.{md,mdx}",
+    base: "src/content/pages/proposito",
+  }),
   schema: z.object({
     title: z.string(),
     meta_title: z.string().optional(),

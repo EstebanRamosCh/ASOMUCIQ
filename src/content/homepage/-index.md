@@ -13,7 +13,7 @@ banner:
 features:
   - title: "Nuestra historia"
     image: "/images/service-1.png"
-    content: "ASOMUCIQ ha implementado proyectos de formación en liderazgo, emprendimiento y gestión de proyectos, además de iniciativas para fortalecer la economía local, promoviendo la producción y comercialización de productos agrícolas y artesanales, lo que contribuye a la autonomía económica de las mujeres y al fortalecimiento del tejido social en sus comunidades."
+    content: ""
     bulletpoints:
       - "ASOMUCIQ surge el 22 de diciembre de 2017 como una iniciativa de un grupo de mujeres reunidas en asamblea."
       - "Más de 9 años trabajando en apoyo a mujeres campesinas, víctimas del conflicto armado, madres cabeza de hogar y mujeres en estado de vulnerabilidad."
@@ -27,7 +27,7 @@ features:
 
   - title: "Objeto social"
     image: "/images/service-2.png"
-    content: "El objeto social de la organización se centra en mejorar la calidad de vida de la población vulnerable, especialmente campesinos, afrocolombianos, indígenas y mestizos, afectados por el conflicto interno colombiano. Para ello, se enfoca en:"
+    content: "El objeto social de la organización se enfoca en:"
     bulletpoints:
       - "Mejora social y económica: Desarrollar programas que promuevan los derechos humanos, la vivienda, la cultura, la formación, la recreación y la construcción del tejido social a través de proyectos públicos y privados."
       - "Fomento de la paz: Sensibilizar y participar en procesos de paz con grupos armados ilegales."
