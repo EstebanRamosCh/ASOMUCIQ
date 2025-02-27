@@ -33,7 +33,7 @@ features:
       - "Fomento de la paz: Sensibilizar y participar en procesos de paz con grupos armados ilegales."
       - "Desarrollo de programas productivos y sociales: Mejorar la calidad de vida y garantizar el acceso a los beneficios del Estado, promoviendo la creación de microempresas, desarrollo agropecuario y pesquero."
     button:
-      enable: true
+      enable: false
       label: "Nuestras actividades"
       link: "/elements"
 
